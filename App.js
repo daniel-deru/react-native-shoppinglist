@@ -1,6 +1,7 @@
-import Header from "./components/Header";
 import { useState } from "react"
 import { StyleSheet, SafeAreaView, FlatList, Text } from "react-native";
+import Header from "./components/Header"
+import ListItem from "./components/ListItem";
 
 
 
@@ -15,7 +16,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <Header />
       <FlatList data={items} renderItem={({item}) => (
-        <Text>{item.text}</Text>
+        <ListItem  item={item}/>
       )}/>
     </SafeAreaView>
   );
