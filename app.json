@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "expoApp",
-    "slug": "expoApp",
+    "name": "Shopping List",
+    "slug": "shoppinglist",
+    "privacy": "public",
+    "description": "shopping list",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/icon.png",

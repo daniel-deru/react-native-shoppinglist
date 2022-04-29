@@ -10,14 +10,15 @@ const Header = () => {
 
 const styles = StyleSheet.create({
     header: {
-        height: "10%",
+        height: "20%",
         padding: 15,
         backgroundColor: 'firebrick'
     },
     text: {
         color: "white",
         fontSize: 23,
-        textAlign: "center"
+        textAlign: "center",
+        padding: 10
     }
 })
 
